@@ -49,6 +49,7 @@ const Categories = () => {
         <div className="row">
           <div className="col-3">
             <ul className="list-group">
+
               {categories.map((cat) => {
                 return (
                   <li
